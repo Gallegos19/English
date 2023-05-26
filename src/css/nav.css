@@ -1,0 +1,27 @@
+.NavContainer {
+    height: 10vh;
+    width: 100vw;
+    background-color: blanchedalmond;
+    display: flex;
+  }
+  
+  .NavLogo {
+    display: flex;
+    height: 100%;
+    width: auto;
+    
+  }
+
+  
+  .DivTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+
+  }
+  
+  .Titulo1{
+    font-size: 140%;
+  }
+  

@@ -1,13 +1,29 @@
 .ContainerNews{
-display: flex; 
-flex-wrap: wrap;   
-align-items:center;
-text-align: justify;
-justify-content:center;
-background-color: #D9D9D9;
-width: 100vw;
-height: 75vh;
-border-radius: 15%;
-padding: 1.5rem;
-margin: auto;
+display: flex;  
+flex-wrap: wrap;
+border-color: rgb(66, 3, 3);
+box-shadow:1px 2px 1px 2px black;
+width: 90vw;
+height: auto;
+border-radius: 10%;
+padding: .9rem;
+margin:  10vh auto;
+background-color: hsl(211, 77%, 88%);
+padding: 3%;
+
 }
+.imagen{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10%;
+    margin: auto;
+    padding: 0.8rem;
+    box-shadow: 2px 2px #131313;
+}
+.contenedor-img {
+    max-width: 20vw; /* Establece el ancho máximo como el 50% del ancho de la ventana */
+    margin: 20px auto; /* Ajusta el margen superior e inferior según sea necesario */
+  }
+  
